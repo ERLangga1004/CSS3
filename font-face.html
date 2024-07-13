@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Face</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+        
+        .roboto-condensed-100 {
+            font-family: "Roboto Condensed", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: "Quick Sand";
+            src: url(/font/Quicksand-Bold.otf) format("opentype");
+        }
+
+       
+        @font-face {
+            font-family: 'caviar_dreamsregular';
+            src: url('/font/CaviarDreams-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        h1 {
+            font-size: 100px;
+            text-align: center;
+            font-family: "Quick Sand", arial;
+        }
+
+        h2 {
+            font-size: 100px;
+            font-family: 'caviar_dreamsregular', arial;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 class="roboto-condensed-100">Hello World</h1>
+    <h1>Hallo, Selamat Datang</h1>
+    <h2>Hallo Dunia</h2>
+</body>
+</html>
